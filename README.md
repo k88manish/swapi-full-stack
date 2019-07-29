@@ -1,1 +1,0 @@
-# swapi-full-stack

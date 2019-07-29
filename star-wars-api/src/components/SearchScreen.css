@@ -1,0 +1,73 @@
+.search-container{
+    background: url('../assetts/planet.jpg') no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100vw;
+}
+
+.search-planet{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 27px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.planets-container{
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    list-style: none;
+    text-align: initial;
+    padding-left: 20px;
+}
+.planets-container li{
+    font-weight: 500;
+}
+.planets-container li:hover{
+    background-color: lightgrey;
+}
+.single-planet-container{
+    color: white;
+}
+.single-planet-container span{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.single-planet-container select{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ #label{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logout-button{
+    /* margin: auto; */
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(41, 27,13);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.logout-container{
+   /* float: right; */
+   width: 15%;
+   margin: 10px;
+  
+}

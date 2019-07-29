@@ -1,0 +1,46 @@
+.helmet-image{
+    height: 15%;
+    width: 15%;
+}
+.login-container{
+    background: url('../assetts/star-wars-logo.jpg') no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100vw;
+}
+
+.login{
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color:rgb(222,188,251);
+    margin-top: 3%;
+}
+.user-input{
+    margin: auto;
+    min-width: 40%;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 20px;
+    max-width: 40%;
+    border-radius: 10px;
+}
+.login-button{
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    width: 20%;
+    background-color: rgb(95, 38,125);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.error-message{
+    width: 40%;
+    margin: auto;
+}
