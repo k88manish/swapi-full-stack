@@ -56,18 +56,18 @@
 }
 
 .logout-button{
-    /* margin: auto; */
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 20px;
-    width: 100%;
+    max-width: 100%;
     background-color: rgb(41, 27,13);
     font-weight: bold;
     font-size: 20px;
     color: white;
 }
 .logout-container{
-   /* float: right; */
-   width: 15%;
    margin: 10px;
-  
+   width:100%;
+
 }

@@ -16,9 +16,9 @@ export default class SearchScreen extends Component {
 
   planetFilter = (sub)=>{
     let filtered = this.state.planets && this.state.planets.filter((planet)=>{
-      return planet.name.toLowerCase().includes(sub);
+      return planet.name.toLowerCase().includes(sub.toLowerCase());
     });
-    this.setState({filtered,showPlanetFlag:false});
+    this.setState({filtered:filtered,showPlanetFlag:false});
   }
   handleChange = (e)=>{
     if(e.target.value !== ""){
@@ -59,7 +59,6 @@ export default class SearchScreen extends Component {
   )
   render() {
     let {filtered,showPlanetFlag,selectedPlanet} = this.state;
-
     return (
       <div className="container search-container"> 
         <div className="row logout-container">
